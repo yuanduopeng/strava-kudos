@@ -3,7 +3,7 @@ name: Give Strava Kudos
 on:
   # Triggers 10:30 and 22:30 everyday using Beijing time (UTC+8)
   schedule:
-    - cron: "20 2,14 * * *"
+    - cron: "20 14 * * *"
   workflow_dispatch:
 
 env:
